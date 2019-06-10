@@ -1,0 +1,664 @@
+1559828854006	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.mLP5N4t1neGd"
+1559828854768	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559828854769	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559828854769	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559828857380	Marionette	INFO	Listening on port 62995
+1559828857836	Marionette	WARN	TLS certificate errors will be ignored for this session
+1559828862880	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:17879
+ajax@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:15044
+domManip/<@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:2470
+each@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:11776
+domManip@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:2441
+append@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:3:32408
+html/<@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:1283
+access@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:13266
+html@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:876
+success@https://opensource-demo.orangehrmlive.com/index.php/dashboard:998:36
+o@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:14733
+fireWith@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:15502
+w@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:12472
+d@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:18318
+[Parent 37444, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 37444, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 35928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 35928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 23060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 23060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 37444, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 21212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_15580351559829026856	Marionette	INFO	Stopped listening on port 62995
+[GPU 27856, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559829032480	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.S6RYdqCG6QBk"
+1559829033420	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559829033420	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559829033420	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559829035923	Marionette	INFO	Listening on port 63222
+1559829036311	Marionette	WARN	TLS certificate errors will be ignored for this session
+1559829041519	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+JavaScript error: resource://devtools/shared/protocol.js, line 1299: Error: Connection closed, pending request to server1.conn0.child1/domnode46, type setNodeValue failed
+
+Request stack:
+request@resource://devtools/shared/protocol.js:1386:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol.js:1510:19
+TextEditor/done/</<@resource://devtools/client/inspector/markup/views/text-editor.js:48:21
+do@resource://devtools/client/shared/undo.js:72:16
+endBatch@resource://devtools/client/shared/undo.js:83:11
+do@resource://devtools/client/shared/undo.js:96:10
+TextEditor/done/<@resource://devtools/client/inspector/markup/views/text-editor.js:47:29
+process@resource://gre/modules/Promise-backend.js:923:38
+walkerLoop@resource://gre/modules/Promise-backend.js:807:29
+scheduleWalkerLoop/<@resource://gre/modules/Promise-backend.js:743:14
+
+[Parent 40736, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 40736, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 23328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 23328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11784[Parent 40736, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome1559829090301	Marionette	INFO	Stopped listening on port 63222
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+JavaScript error: resource://gre/modules/osfile/osfile_async_front.jsm, line 400: Error: OS.File has been shut down. Rejecting post to stat
+1559829095304	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.XLBd3UMUWngW"
+1559829095985	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559829095985	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559829095985	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559829098408	Marionette	INFO	Listening on port 63328
+1559829098541	Marionette	WARN	TLS certificate errors will be ignored for this session
+1559829103218	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:17879
+ajax@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:15044
+domManip/<@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:2470
+each@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:11776
+domManip@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:2441
+append@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:3:32408
+html/<@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:1283
+access@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:13266
+html@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:876
+success@https://opensource-demo.orangehrmlive.com/index.php/dashboard:998:36
+o@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:14733
+fireWith@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:15502
+w@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:12472
+d@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:18318
+[Parent 11860, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 23144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 231[Parent 11860, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559829122658	Marionette	INFO	Stopped listening on port 63328
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 28532, Chrome_ChildTh
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559829142927	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.jOfMmiGnbXaN"
+1559829143668	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559829143668	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559829143669	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559829146242	Marionette	INFO	Listening on port 63416
+1559829146256	Marionette	WARN	TLS certificate errors will be ignored for this session
+1559829150935	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:17879
+ajax@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:15044
+domManip/<@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:2470
+each@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:11776
+domManip@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:2441
+append@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:3:32408
+html/<@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:1283
+access@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:13266
+html@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:876
+success@https://opensource-demo.orangehrmlive.com/index.php/dashboard:998:36
+o@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:14733
+fireWith@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:15502
+w@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:12472
+d@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:18318
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+[Parent 35412, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 35412, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14320, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 35412, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1559829268817	Marionette	INFO	Stopped listening on port 63416
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559829275100	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.l9BdqosNBds5"
+1559829275799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559829275799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559829275799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559829278271	Marionette	INFO	Listening on port 63588
+1559829278336	Marionette	WARN	TLS certificate errors will be ignored for this session
+1559829283288	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:17879
+ajax@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:15044
+domManip/<@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:2470
+each@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:11776
+domManip@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:2441
+append@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:3:32408
+html/<@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:1283
+access@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:13266
+html@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:876
+success@https://opensource-demo.orangehrmlive.com/index.php/dashboard:998:36
+o@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:14733
+fireWith@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:15502
+w@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:12472
+d@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:18318
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+[Parent 32076, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7248, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7248, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 32076, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/1559829393571	Marionette	INFO	Stopped listening on port 63588
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559829400965	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.6NU3uiqHh8Y7"
+1559829401839	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559829401840	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559829401840	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559829404411	Marionette	INFO	Listening on port 63758
+1559829404809	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559774912279%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+JavaScript error: resource://devtools/shared/protocol.js, line 1299: Error: Connection closed, pending request to server1.conn0.child1/domnode46, type setNodeValue failed
+
+Request stack:
+request@resource://devtools/shared/protocol.js:1386:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol.js:1510:19
+TextEditor/done/</<@resource://devtools/client/inspector/markup/views/text-editor.js:48:21
+do@resource://devtools/client/shared/undo.js:72:16
+endBatch@resource://devtools/client/shared/undo.js:83:11
+do@resource://devtools/client/shared/undo.js:96:10
+TextEditor/done/<@resource://devtools/client/inspector/markup/views/text-editor.js:47:29
+process@resource://gre/modules/Promise-backend.js:923:38
+walkerLoop@resource://gre/modules/Promise-backend.js:807:29
+scheduleWalkerLoop/<@resource://gre/modules/Promise-backend.js:743:14
+
+[Child 15088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/i[Child 28952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 28952, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrom1559829804824	Marionette	INFO	Stopped listening on port 63758
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 38520, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+aseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context19' can't be sent as the connection is closed."
+[Child 22608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 22608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/ta[Child 19124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19124, Chrome[Parent 39344, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 40468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 40468, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.1559829802289	Marionette	INFO	Stopped listening on port 64104
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559829810910	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.91kkEgUQtSc0"
+1559829812103	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559829812104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559829812104	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559829814552	Marionette	INFO	Listening on port 64269
+1559829814757	Marionette	WARN	TLS certificate errors will be ignored for this session
+1559829820589	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:17879
+ajax@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:15044
+domManip/<@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:2470
+each@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:11776
+domManip@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:2441
+append@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:3:32408
+html/<@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:1283
+access@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:13266
+html@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:876
+success@https://opensource-demo.orangehrmlive.com/index.php/dashboard:991:36
+o@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:14733
+fireWith@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:2:15502
+w@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:12472
+d@https://opensource-demo.orangehrmlive.com/webres_5cc83b08d42f86.60948938/js/jquery/jquery-1.7.2.min.js:4:18318
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221559774912279%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+[Parent 12636, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 30024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5796, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12636, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/c1559893283683	Marionette	INFO	Stopped listening on port 64269
+[GPU 38360, Chrome_Ch
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ildThread] WARNING: pipe error: 109: file z:/task_1558035249/buil
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559893499717	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.DcVfF4HP7se2"
+1559893500662	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559893500663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559893500663	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559893503221	Marionette	INFO	Listening on port 56513
+1559893503541	Marionette	WARN	TLS certificate errors will be ignored for this session
+1559893508376	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:17879
+ajax@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:15044
+domManip/<@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:2470
+each@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:11776
+domManip@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:2441
+append@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:3:32408
+html/<@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:1283
+access@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:13266
+html@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:876
+success@https://opensource-demo.orangehrmlive.com/index.php/dashboard:919:36
+o@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:14733
+fireWith@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:15502
+w@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:12472
+d@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:18318
+JavaScript error: https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js line 2 > eval, line 10: ReferenceError: visualizePieChart is not defined
+1559893510589	Marionette	INFO	Stopped listening on port 56513
+[Parent 22460, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 35988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 35988, Chrome_ChildThread] WA[Parent 22460, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249[Parent 22460, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 36748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 36748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558035249/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[G
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+PU 40992, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559911217107	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.dJQEwgw6RUgO"
+1559911278182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.Ey3IFUuXfoOY"
+1559911278975	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559911278976	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559911278976	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559911281867	Marionette	INFO	Listening on port 62435
+1559911282011	Marionette	WARN	TLS certificate errors will be ignored for this session
+1559911286458	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:17879
+ajax@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:15044
+domManip/<@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:2470
+each@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:11776
+domManip@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:2441
+append@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:3:32408
+html/<@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:1283
+access@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:13266
+html@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:876
+success@https://opensource-demo.orangehrmlive.com/index.php/dashboard:926:36
+o@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:14733
+fireWith@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:15502
+w@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:12472
+d@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:18318
+JavaScript error: https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js line 2 > eval, line 10: ReferenceError: visualizePieChart is not defined
+1559911288671	Marionette	INFO	Stopped listening on port 62435
+[Parent 11416, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10524, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 11416, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[GPU 31116, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559911769605	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.qG2yiZIqaQ9u"
+1559911770348	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559911770348	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559911770348	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559911773254	Marionette	INFO	Listening on port 63044
+1559911773445	Marionette	WARN	TLS certificate errors will be ignored for this session
+1559911778694	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:17879
+ajax@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:15044
+domManip/<@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:2470
+each@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:11776
+domManip@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:2441
+append@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:3:32408
+html/<@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:1283
+access@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:13266
+html@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:876
+success@https://opensource-demo.orangehrmlive.com/index.php/dashboard:926:36
+o@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:14733
+fireWith@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:15502
+w@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:12472
+d@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:18318
+JavaScript error: https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js line 2 > eval, line 10: ReferenceError: visualizePieChart is not defined
+1559911780906	Marionette	INFO	Stopped listening on port 63044
+[Parent 39264, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 39264, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1452, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1452, Chrome_ChildThread] WARNING: pipe error: [Parent 39264, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_15
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 24456, Chrome_Chi
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559911810707	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.Umzs46FXxoky"
+1559911811450	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559911811451	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559911811451	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559911814213	Marionette	INFO	Listening on port 63125
+1559911814542	Marionette	WARN	TLS certificate errors will be ignored for this session
+1559911819126	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:17879
+ajax@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:15044
+domManip/<@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:2470
+each@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:11776
+domManip@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:2441
+append@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:3:32408
+html/<@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:1283
+access@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:13266
+html@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:876
+success@https://opensource-demo.orangehrmlive.com/index.php/dashboard:926:36
+o@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:14733
+fireWith@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:15502
+w@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:12472
+d@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:18318
+JavaScript error: https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js line 2 > eval, line 10: ReferenceError: visualizePieChart is not defined
+1559911821345	Marionette	INFO	Stopped listening on port 63125
+[Parent 14944, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 39432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 394[Parent 14944, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 14944, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 20616, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/s[GP
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+U 7516, Chrome_ChildThread] WARNING: pipe error
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559911973681	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.mTBUVxARLo8m"
+1559911974746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559911974748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559911974748	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559911978112	Marionette	INFO	Listening on port 63333
+1559911978616	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js line 2 > eval, line 10: ReferenceError: visualizePieChart is not defined
+1559911983680	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1559911985889	Marionette	INFO	Stopped listening on port 63333
+[Parent 40384, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 29384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 29384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel[Child 16892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16892, Chrome_ChildThread] WARNING: pipe error: 109: file z:/[G
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+PU 14024, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1559912130736	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.YxNKIbe92nGR"
+1559912131490	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1559912131491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1559912131491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1559912134154	Marionette	INFO	Listening on port 63527
+1559912134566	Marionette	WARN	TLS certificate errors will be ignored for this session
+1559912139133	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:17879
+ajax@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:15044
+domManip/<@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:2470
+each@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:11776
+domManip@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:2441
+append@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:3:32408
+html/<@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:1283
+access@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:13266
+html@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:876
+success@https://opensource-demo.orangehrmlive.com/index.php/dashboard:926:36
+o@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:14733
+fireWith@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:15502
+w@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:12472
+d@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:18318
+JavaScript error: https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js line 2 > eval, line 10: ReferenceError: visualizePieChart is not defined
+1559912141354	Marionette	INFO	Stopped listening on port 63527
+[Child 5008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5008, Chrome_ChildThread] WARNIN[Parent 38568, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 38568, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 34228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 34228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[GPU 34952, Chrome_Ch
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+i
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560168760498	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.J1u3AkeQGPq7"
+1560168761768	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560168761771	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560168761771	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560168765605	Marionette	INFO	Listening on port 62367
+1560168765963	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560168768315	Marionette	INFO	Stopped listening on port 62367
+[Parent 7004, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11840, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 118[Parent 7004, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7004, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11448, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11448, C[GP
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+U 17760, Chrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1560168963491	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\YURY_D~1\\AppData\\Local\\Temp\\rust_mozprofile.RGuam4k0EgDG"
+1560168964450	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1560168964450	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1560168964451	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1560168967123	Marionette	INFO	Listening on port 62428
+1560168967317	Marionette	WARN	TLS certificate errors will be ignored for this session
+1560168972149	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+send@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:17879
+ajax@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:15044
+domManip/<@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:2470
+each@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:11776
+domManip@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:2441
+append@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:3:32408
+html/<@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:1283
+access@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:13266
+html@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:876
+success@https://opensource-demo.orangehrmlive.com/index.php/dashboard:926:36
+o@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:14733
+fireWith@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:2:15502
+w@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:12472
+d@https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js:4:18318
+JavaScript error: https://opensource-demo.orangehrmlive.com/js/jquery/jquery-1.7.2.min.js line 2 > eval, line 10: ReferenceError: visualizePieChart is not defined
+1560168975518	Marionette	INFO	Stopped listening on port 62428
+[Parent 14764, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11656, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 116[Parent 14764, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17792, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1559133213/build/src/ipc/chromium/src/chrome/com[GPU 9940, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

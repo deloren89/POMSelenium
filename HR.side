@@ -1,0 +1,117 @@
+{
+  "id": "43a8a20b-e26b-460b-8610-fa682e9e9413",
+  "version": "2.0",
+  "name": "HR",
+  "url": "https://opensource-demo.orangehrmlive.com",
+  "tests": [{
+    "id": "e35932ec-4496-4399-9631-fb6d201174aa",
+    "name": "login-logout",
+    "commands": [{
+      "id": "497e61ef-1d09-452b-a54b-8ef03ac7981b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcc31477-4e6f-4634-b563-728df2ba67b0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1032x696",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a14564f4-02f6-45a0-a94b-f2bc81c75f99",
+      "comment": "",
+      "command": "click",
+      "target": "css=#divUsername > .form-hint",
+      "targets": [
+        ["css=#divUsername > .form-hint", "css:finder"],
+        ["xpath=//div[@id='divUsername']/span", "xpath:idRelative"],
+        ["xpath=//form/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d54859f-e1e7-4d3e-b3e1-82cf737c3279",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtUsername",
+      "targets": [
+        ["id=txtUsername", "id"],
+        ["name=txtUsername", "name"],
+        ["css=#txtUsername", "css:finder"],
+        ["xpath=//input[@id='txtUsername']", "xpath:attributes"],
+        ["xpath=//div[@id='divUsername']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Admin"
+    }, {
+      "id": "86453f7b-08d9-4413-97a5-96dafd86d403",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtPassword",
+      "targets": [
+        ["id=txtPassword", "id"],
+        ["name=txtPassword", "name"],
+        ["css=#txtPassword", "css:finder"],
+        ["xpath=//input[@id='txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='divPassword']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3830b64-c65c-4a96-a58a-eb918426d215",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtPassword",
+      "targets": [
+        ["id=txtPassword", "id"],
+        ["name=txtPassword", "name"],
+        ["css=#txtPassword", "css:finder"],
+        ["xpath=//input[@id='txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='divPassword']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "admin123"
+    }, {
+      "id": "efeb0c83-189c-4412-8c1b-ebdeeea01a4e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=txtPassword",
+      "targets": [
+        ["id=txtPassword", "id"],
+        ["name=txtPassword", "name"],
+        ["css=#txtPassword", "css:finder"],
+        ["xpath=//input[@id='txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='divPassword']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "32d8f9c1-1011-4d44-918e-3a1caf02b769",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=#welcome-menu li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//div[@id='welcome-menu']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/auth/logout')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c176f25f-879b-44f4-a242-456e87a2583e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e35932ec-4496-4399-9631-fb6d201174aa"]
+  }],
+  "urls": ["https://opensource-demo.orangehrmlive.com/"],
+  "plugins": []
+}
